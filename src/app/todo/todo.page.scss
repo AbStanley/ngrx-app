@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+h2 {
+  font-weight: 900;
+  margin-bottom: 2rem;
+}
+
+ion-input {
+  width: 90%;
+  font-size: 1.2em;
+  padding: 0.3rem !important;
+  border-radius: 0.5rem;
+  background-color: rgb(32, 32, 32);
+}
+
+ion-button {
+  margin: 2rem;
+  width: 90%;
+  background-color: rgb(31, 30, 30);
+  border-radius: 0.5rem;
+}
+
+ion-list {
+  width: 100%;
+}
+
+ion-label {
+  border-radius: 0.5rem;
+  font-weight: bold;  
+}
